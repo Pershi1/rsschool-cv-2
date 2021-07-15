@@ -18,3 +18,18 @@ Brief personal information: 26 years old, higher education, married, have a son.
 4. Curiosity
 5. Honesty
 6. No bad habits
+
+# My skills
+
+### Main skills
+
+- JS + TS
+- HTML (Pug)
+- CSS (SASS)
+- Git
+- Webpack
+- React (Redux)
+
+### Additional skills
+
+- Linux
