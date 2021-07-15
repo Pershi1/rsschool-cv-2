@@ -33,3 +33,29 @@ Brief personal information: 26 years old, higher education, married, have a son.
 ### Additional skills
 
 - Linux
+
+# Sample code
+
+```{javascript}
+const check = (str, bracketsConfig) => {
+  const newStr = str
+  const escapedChars = '[()|'
+  let isIdentity
+  do {
+    isIdentity = false
+    for (paar of bracketsConfig) {
+      const stringForRegExp = paar
+        .map(char =>
+          escapedChars.includes(char) === true ? `\\${char}` : char
+        )
+        .join('')
+      const regExp = new RegExp(stringForRegExp, 'g')
+      if (regExp.test(newStr)) {
+        isIdentity = true
+        newStr = newStr.replace(regExp, '')
+      }
+    }
+  } while (isIdentity)
+  return newStr.length === 0
+}
+```
