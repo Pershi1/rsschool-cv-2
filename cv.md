@@ -59,3 +59,19 @@ const check = (str, bracketsConfig) => {
   return newStr.length === 0
 }
 ```
+
+# Work experience
+
+😢
+
+# Education
+
+1. [The Modern JavaScript Tutorial](https://learn.javascript.ru/)
+2. [\<VM\>](https://www.youtube.com/channel/UCg8ss4xW9jASrqWGP30jXiw)
+3. [IT-KAMASUTRA](https://www.youtube.com/channel/UCTW0FUhT0m-Bqg2trTbSs0g)
+4. [webDev](https://www.youtube.com/channel/UCE9ODjNIkOHrnSdkYWLfYhg)
+5. [Front-end Science c Сергеем Пузанковым](https://www.youtube.com/channel/UCmI5YBB9KJ0xLtFtgBX8rfw)
+
+# English level
+
+At the moment my level is A2, but I'm constantly learning and I'm not going to stop until I can speak fluently.
